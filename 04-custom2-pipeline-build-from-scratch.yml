@@ -10,7 +10,7 @@ trigger:
 
 # Variables
 variables:
-  tab: '$(Build.BuildId)'
+  tag: '$(Build.BuildId)'
 
 stages:
 # Build Stage 
